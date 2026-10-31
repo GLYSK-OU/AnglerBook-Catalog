@@ -1,16 +1,16 @@
 {
   "schemaVersion": "2.0.0",
-  "catalogVersion": "2026.08.23",
-  "generatedAt": "2026-08-23T00:00:00Z",
+  "catalogVersion": "2026.10.31",
+  "generatedAt": "2026-10-31T00:00:00Z",
   "app": "AnglerBook",
   "publisher": "GLYSK OÜ",
   "copyright": "© 2026 GLYSK OÜ. Reference data for the AnglerBook application.",
   "structure": "kind -> brand -> model -> variant(specs)",
   "counts": {
     "kinds": 14,
-    "brands": 72,
-    "models": 373,
-    "variants": 1873,
+    "brands": 73,
+    "models": 383,
+    "variants": 1894,
     "byKind": {
       "rod": 608,
       "reel": 223,
@@ -22,7 +22,7 @@
       "waders": 90,
       "boots": 112,
       "pack": 10,
-      "net": 10,
+      "net": 31,
       "tool": 11,
       "accessory": 12,
       "apparel": 57
@@ -21316,7 +21316,9 @@
       "label": "Nets",
       "variantSpecFields": [
         "type",
-        "mesh"
+        "mesh",
+        "weighScaleLb",
+        "frameSize"
       ],
       "brands": [
         {
@@ -21372,6 +21374,299 @@
                     "type": "mid-length",
                     "mesh": "clear rubber",
                     "material": "carbon-fibre"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "brand": "McLean Angling",
+          "logo": {
+            "domain": "mcleanangling.com",
+            "url": "https://raw.githubusercontent.com/GLYSK-OU/AnglerBook-catalog/main/catalog/logos/mclean-angling.png"
+          },
+          "models": [
+            {
+              "model": "Short Handle Weigh",
+              "note": "Fixed-frame deep-wading weigh nets, scale built into the handle. The M size is also sold in six colourways (R111-R/-B/-Or/-OL/-PI/-PR); only the bronze SKU is carried here.",
+              "variants": [
+                {
+                  "id": "net-mclean-angling-short-handle-weigh-r112",
+                  "code": "R112",
+                  "label": "S (14lb)",
+                  "specs": {
+                    "type": "weigh net",
+                    "mesh": "rubber",
+                    "frameSize": "14 x 10",
+                    "weighScaleLb": 14
+                  }
+                },
+                {
+                  "id": "net-mclean-angling-short-handle-weigh-r111",
+                  "code": "R111",
+                  "label": "M (14lb)",
+                  "specs": {
+                    "type": "weigh net",
+                    "mesh": "rubber",
+                    "frameSize": "17 x 13",
+                    "weighScaleLb": 14
+                  }
+                },
+                {
+                  "id": "net-mclean-angling-short-handle-weigh-r110",
+                  "code": "R110",
+                  "label": "L (14lb)",
+                  "specs": {
+                    "type": "weigh net",
+                    "mesh": "rubber",
+                    "frameSize": "20 x 16",
+                    "weighScaleLb": 14
+                  }
+                },
+                {
+                  "id": "net-mclean-angling-short-handle-weigh-r113",
+                  "code": "R113",
+                  "label": "L (30lb)",
+                  "specs": {
+                    "type": "weigh net",
+                    "mesh": "rubber",
+                    "frameSize": "20 x 16",
+                    "weighScaleLb": 30
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Long Handle Weigh",
+              "note": "Fixed-frame weigh nets on a longer handle for deep wading.",
+              "variants": [
+                {
+                  "id": "net-mclean-angling-long-handle-weigh-r102",
+                  "code": "R102",
+                  "label": "M (14lb)",
+                  "specs": {
+                    "type": "weigh net",
+                    "mesh": "rubber",
+                    "frameSize": "17 x 13",
+                    "weighScaleLb": 14
+                  }
+                },
+                {
+                  "id": "net-mclean-angling-long-handle-weigh-r100",
+                  "code": "R100",
+                  "label": "L (14lb)",
+                  "specs": {
+                    "type": "weigh net",
+                    "mesh": "rubber",
+                    "frameSize": "20 x 16",
+                    "weighScaleLb": 14
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Measure & Weigh",
+              "note": "All-water nets with a concealed scale in a retractable handle and a measure scale on the frame. Store SKUs carry a trailing 'i' that the spec tables omit.",
+              "variants": [
+                {
+                  "id": "net-mclean-angling-measure-weigh-r703i",
+                  "code": "R703i",
+                  "label": "XL (30lb)",
+                  "specs": {
+                    "type": "weigh net",
+                    "mesh": "rubber",
+                    "frameSize": "20 x 18",
+                    "weighScaleLb": 30
+                  }
+                },
+                {
+                  "id": "net-mclean-angling-measure-weigh-r706i",
+                  "code": "R706i",
+                  "label": "XXL (50lb)",
+                  "specs": {
+                    "type": "weigh net",
+                    "mesh": "rubber",
+                    "frameSize": "20 x 24",
+                    "weighScaleLb": 50
+                  }
+                },
+                {
+                  "id": "net-mclean-angling-measure-weigh-r707i",
+                  "code": "R707i",
+                  "label": "3XL (50lb)",
+                  "specs": {
+                    "type": "weigh net",
+                    "mesh": "rubber",
+                    "frameSize": "33 x 27",
+                    "weighScaleLb": 50
+                  }
+                }
+              ]
+            },
+            {
+              "model": "SeaTrout Weigh",
+              "note": "Salmon and sea-trout net, retractable handle.",
+              "variants": [
+                {
+                  "id": "net-mclean-angling-seatrout-weigh-r140",
+                  "code": "R140",
+                  "label": "XXL (50lb)",
+                  "specs": {
+                    "type": "weigh net",
+                    "mesh": "rubber",
+                    "frameSize": "24 x 20",
+                    "weighScaleLb": 50
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Folding Tri Telescopic",
+              "note": "Tri-head folding frame on a telescopic handle.",
+              "variants": [
+                {
+                  "id": "net-mclean-angling-folding-tri-telescopic-r120",
+                  "code": "R120",
+                  "label": "Weigh (14lb)",
+                  "specs": {
+                    "type": "weigh net",
+                    "mesh": "rubber",
+                    "frameSize": "21 x 16",
+                    "weighScaleLb": 14
+                  }
+                },
+                {
+                  "id": "net-mclean-angling-folding-tri-telescopic-r201",
+                  "code": "R201",
+                  "label": "Large",
+                  "specs": {
+                    "type": "landing net",
+                    "mesh": "rubber",
+                    "frameSize": "21 x 16"
+                  }
+                },
+                {
+                  "id": "net-mclean-angling-folding-tri-telescopic-r200",
+                  "code": "R200",
+                  "label": "Auto Eject",
+                  "specs": {
+                    "type": "landing net",
+                    "mesh": "rubber",
+                    "frameSize": "21 x 16"
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Hinged Telescopic",
+              "note": "Hinged folding frame on a telescopic handle, one-hand operation. The rubber-bagged R130 was listed unavailable at time of crawl.",
+              "variants": [
+                {
+                  "id": "net-mclean-angling-hinged-telescopic-r130",
+                  "code": "R130",
+                  "label": "Weigh (14lb) - rubber",
+                  "specs": {
+                    "type": "weigh net",
+                    "mesh": "rubber",
+                    "frameSize": "20 x 17",
+                    "weighScaleLb": 14
+                  }
+                },
+                {
+                  "id": "net-mclean-angling-hinged-telescopic-m130",
+                  "code": "M130",
+                  "label": "Weigh (14lb) - micromesh",
+                  "specs": {
+                    "type": "weigh net",
+                    "mesh": "micromesh",
+                    "frameSize": "20 x 17",
+                    "weighScaleLb": 14
+                  }
+                },
+                {
+                  "id": "net-mclean-angling-hinged-telescopic-r510",
+                  "code": "R510",
+                  "label": "Auto Eject",
+                  "specs": {
+                    "type": "landing net",
+                    "mesh": "rubber",
+                    "frameSize": "16 x 15"
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Folding Spring Weigh",
+              "note": "Small folding spring frame for roughly 1-5 lb fish.",
+              "variants": [
+                {
+                  "id": "net-mclean-angling-folding-spring-weigh-m115",
+                  "code": "M115",
+                  "label": "S (14lb)",
+                  "specs": {
+                    "type": "weigh net",
+                    "mesh": "micromesh",
+                    "frameSize": "14 x 10",
+                    "weighScaleLb": 14
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Telescopic Boat Net",
+              "note": "Fixed frame on a telescopic handle for still water.",
+              "variants": [
+                {
+                  "id": "net-mclean-angling-telescopic-boat-net-r400",
+                  "code": "R400",
+                  "label": "Standard",
+                  "specs": {
+                    "type": "landing net",
+                    "mesh": "rubber",
+                    "frameSize": "21.5 x 19"
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Short Handle",
+              "note": "Fixed-frame nets without a scale.",
+              "variants": [
+                {
+                  "id": "net-mclean-angling-short-handle-r602",
+                  "code": "R602",
+                  "label": "M - rubber",
+                  "specs": {
+                    "type": "landing net",
+                    "mesh": "rubber",
+                    "frameSize": "17 x 13"
+                  }
+                },
+                {
+                  "id": "net-mclean-angling-short-handle-g603",
+                  "code": "G603",
+                  "label": "M - ghost",
+                  "specs": {
+                    "type": "landing net",
+                    "mesh": "ghost (clear)",
+                    "frameSize": "13 x 10"
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Floating Kayak Net",
+              "note": "Floating saltwater net with a measure scale to 14 in; no weigh scale.",
+              "variants": [
+                {
+                  "id": "net-mclean-angling-floating-kayak-net-r702i",
+                  "code": "R702i",
+                  "label": "M",
+                  "specs": {
+                    "type": "landing net",
+                    "mesh": "rubber",
+                    "frameSize": "15 x 15"
                   }
                 }
               ]
