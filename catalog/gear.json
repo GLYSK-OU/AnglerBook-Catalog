@@ -9,8 +9,8 @@
   "counts": {
     "kinds": 14,
     "brands": 73,
-    "models": 383,
-    "variants": 1894,
+    "models": 391,
+    "variants": 1902,
     "byKind": {
       "rod": 608,
       "reel": 223,
@@ -21,7 +21,7 @@
       "fly": 40,
       "waders": 90,
       "boots": 112,
-      "pack": 10,
+      "pack": 18,
       "net": 31,
       "tool": 11,
       "accessory": 12,
@@ -21118,7 +21118,8 @@
       "label": "Packs & Vests",
       "variantSpecFields": [
         "type",
-        "capacity"
+        "capacity",
+        "ipxRating"
       ],
       "brands": [
         {
@@ -21216,7 +21217,7 @@
             {
               "model": "Guidewater Sling 15L",
               "series": "flagship",
-              "note": "Submersible waterproof sling.",
+              "note": "Submersible waterproof sling. No longer in the EU range as of the 2026-10-31 crawl; superseded by the Guidewater Switch Pack 12L. Kept because anglers still own it.",
               "variants": [
                 {
                   "id": "pack-patagonia-guidewater-sling-15l-15l",
@@ -21243,6 +21244,141 @@
                     "type": "backpack",
                     "capacity": "40L",
                     "waterResistant": true
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Guidewater Backpack 25L",
+              "series": "flagship",
+              "note": "Rated IPX-7: fully waterproof and submersible to 1 m for 30 min. 800-denier recycled nylon, TPU-coated both sides. Patagonia sizes it S/M/L by back length (48/53/58 cm); carried here as one size to match the rest of the pack kind.",
+              "variants": [
+                {
+                  "id": "pack-patagonia-guidewater-backpack-25l-one-size",
+                  "code": "One Size",
+                  "label": "One Size",
+                  "specs": {
+                    "type": "backpack",
+                    "capacity": "25L",
+                    "waterproof": true,
+                    "ipxRating": "IPX-7"
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Guidewater Roll-Top Pack 41L",
+              "series": "flagship",
+              "note": "Expandable roll-top. Rated IPX-6 only: resists ingress up to the roll closure height and is NOT submersible, unlike the 25L and the Switch Pack 12L. 800-denier recycled nylon, TPU-coated both sides. Patagonia's spec line says 41 L while its own description says 40 L; the spec line is used here. Sized S/M/L by back length (53/58/63 cm).",
+              "variants": [
+                {
+                  "id": "pack-patagonia-guidewater-roll-top-pack-41l-one-size",
+                  "code": "One Size",
+                  "label": "One Size",
+                  "specs": {
+                    "type": "backpack",
+                    "capacity": "41L",
+                    "waterproof": true,
+                    "ipxRating": "IPX-6"
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Guidewater Switch Pack 12L",
+              "series": "flagship",
+              "note": "Single-strap sling that converts to a waist pack. Rated IPX-7: fully waterproof and submersible to 1 m for 30 min. 800-denier recycled nylon, TPU-coated both sides. No size variants published.",
+              "variants": [
+                {
+                  "id": "pack-patagonia-guidewater-switch-pack-12l-one-size",
+                  "code": "One Size",
+                  "label": "One Size",
+                  "specs": {
+                    "type": "sling",
+                    "capacity": "12L",
+                    "waterproof": true,
+                    "ipxRating": "IPX-7"
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Stealth Backpack 25L",
+              "series": "performance",
+              "note": "Water-repellent only, with no IPX rating: this series is not waterproof and not submersible. 300-denier recycled polyester ripstop with a recycled TPU film laminate. Sized S/M/L by back length (48/51/56 cm).",
+              "variants": [
+                {
+                  "id": "pack-patagonia-stealth-backpack-25l-one-size",
+                  "code": "One Size",
+                  "label": "One Size",
+                  "specs": {
+                    "type": "backpack",
+                    "capacity": "25L",
+                    "waterResistant": true
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Stealth Switch Fishing Pack 9L",
+              "series": "performance",
+              "note": "Single-strap sling, wearable on either shoulder and convertible to a waist pack. Listed by Patagonia as 'Stealth Switch Pack 9L'. No water-resistance claim is published for this model. 300-denier recycled polyester ripstop.",
+              "variants": [
+                {
+                  "id": "pack-patagonia-stealth-switch-fishing-pack-9l-one-size",
+                  "code": "One Size",
+                  "label": "One Size",
+                  "specs": {
+                    "type": "sling",
+                    "capacity": "9L"
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Stealth Switch Fishing Pack 5L",
+              "series": "performance",
+              "note": "Worn on the chest, at the waist or as a single-strap sling, and clippable to another pack. Listed by Patagonia as 'Stealth Switch Pack 5L'. No water-resistance claim is published. 300-denier recycled polyester ripstop.",
+              "variants": [
+                {
+                  "id": "pack-patagonia-stealth-switch-fishing-pack-5l-one-size",
+                  "code": "One Size",
+                  "label": "One Size",
+                  "specs": {
+                    "type": "chest",
+                    "capacity": "5L"
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Stealth Switch Fishing Pack 3L",
+              "series": "performance",
+              "note": "Light chest pack or minimal waist pack, clippable to another pack. Listed by Patagonia as 'Stealth Switch Pack 3L'. No water-resistance claim is published. 300-denier recycled polyester ripstop.",
+              "variants": [
+                {
+                  "id": "pack-patagonia-stealth-switch-fishing-pack-3l-one-size",
+                  "code": "One Size",
+                  "label": "One Size",
+                  "specs": {
+                    "type": "chest",
+                    "capacity": "3L"
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Stealth Pack Fishing Vest",
+              "series": "performance",
+              "note": "Recycled polyester mesh body with ripstop pockets carrying a DWR finish; the vest itself makes no water-resistance claim. Listed by Patagonia as 'Stealth Pack Vest'. Patagonia sizes this garment but the size values were not confirmed at crawl time.",
+              "variants": [
+                {
+                  "id": "pack-patagonia-stealth-pack-fishing-vest-one-size",
+                  "code": "One Size",
+                  "label": "One Size",
+                  "specs": {
+                    "type": "vest",
+                    "capacity": "12L"
                   }
                 }
               ]
